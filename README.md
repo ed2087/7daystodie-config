@@ -1,7 +1,3 @@
-Here’s the updated README with your new stacking changes added cleanly and in the right section. This is the version you can copy/paste straight into GitHub.
-
-⸻
-
 7 Days to Die – Balanced Horde Overhaul (Custom Config Mod)
 
 This mod is a full XML gameplay rebalance that makes 7 Days to Die feel like an actual survival game again. Zombies hit smarter, spawn in real hordes, weapons matter, tools feel like tools, and vehicles behave like they should. The whole thing is built for max difficulty and for players who want challenge without the grindy, boring parts.
