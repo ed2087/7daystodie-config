@@ -1,93 +1,72 @@
-7 Days to Die – Balanced Horde Overhaul (Custom Config Mod)
+# 7 Days to Die – Balanced Horde Overhaul (Custom Config Mod)
 
-This mod is a full XML gameplay rebalance that makes 7 Days to Die feel like an actual survival game again. Zombies hit smarter, spawn in real hordes, weapons matter, tools feel like tools, and vehicles behave like they should. The whole thing is built for max difficulty and for players who want challenge without the grindy, boring parts.
+Balanced Horde Overhaul is a full **XML gameplay rebalance** that makes 7 Days to Die feel like a real survival game. Zombies hit smarter, spawn in real hordes, weapons matter, tools feel like tools, and vehicles behave like they should. This mod is built for **max difficulty** and for players who want a real survival challenge without the grindy, boring parts.
 
-⸻
+---
 
-What This Mod Does
+## Features
 
-Zombies & Animals
-	•	Adjusted zombie reach for proper balance
-	•	Examples: 1.6 → 1.0, 3.2 → 1.4 depending on the zombie
-	•	Improved horde behavior through spawn file edits
-	•	Zombie animals also rebalanced
-	•	Combat feels tighter, fairer, and way more intense
+### Zombies & Animals
+- Zombies have balanced reach (*1.6 → 1.0*, *3.2 → 1.4*)  
+- Realistic horde behavior through spawn edits  
+- Zombie animals rebalanced  
+- Combat is intense but fair
 
-Block Damage
-	•	Zombie block damage reduced ~50%
-	•	Bases feel strategic again instead of paper houses
+### Block Damage
+- Zombie block damage reduced **~50%**  
+- Bases feel strategic, not paper-thin
 
-Weapons
-	•	Shotguns and rifles improved for realistic impact
-	•	Stronger headshots
-	•	Better stopping power
-	•	Rebalanced overall gun feel
-	•	Ammo matters — you can’t spray and pray anymore
+### Weapons
+- Shotguns & rifles buffed  
+  - Stronger headshots  
+  - Realistic stopping power  
+- Rebalanced overall gun feel  
+- Ammo management matters
 
-Tools
-	•	Shovels, pickaxes, and gas tools buffed
-	•	Harvesting/mining feels faster and more rewarding
-	•	Makes progression feel smoother without breaking balance
+### Tools
+- Shovels, pickaxes, and gas tools buffed  
+- Mining & harvesting feel rewarding
 
-Vehicles
-	•	Helicopter completely rebuilt
-	•	More stable
-	•	Easier to control
-	•	Actually feels like a helicopter
-	•	Cars and motorcycles adjusted
-	•	Better speed
-	•	More durability
-	•	Gas consumption balanced
+### Vehicles
+- **Helicopter rebuilt:** stable and usable  
+- Cars & motorcycles tuned for speed, durability, and gas efficiency
 
-Traps
-	•	Wood and metal spikes improved
-	•	Better effectiveness
-	•	Useful in early and mid game
+### Traps
+- Wood and metal spikes improved  
+- Effective early and mid game
 
-⸻
+### Item Stacking
+- All stackables up to **1000**  
+- Core materials (rock, sand, etc.) up to **10,000**  
+- Prevents tedious backtracking for loot during Blood Moons  
+- Vehicle storage unchanged
 
-Item Stacking (New Feature)
+### Gameplay Experience
+- Built for **max difficulty** with feral sense ON  
+- Night zombies run/sprint  
+- Encourages quiet, strategic survival  
+- Works for single player or local/dedicated servers
 
-For players who don’t have hours per night to babysit loot:
-	•	All stackables increased to 1000
-	•	All core materials increased to 10,000
-	•	Rock
-	•	Sand
-	•	All resource materials
-	•	Anything that originally stacked to 6k or 10k is now cleanly at 10k
+---
 
-This fixes the annoying cycle of dropping your mining loot during Blood Moons or POI runs and having to walk back 30 times.
+## Installation
 
-Storage capacity of vehicles was NOT modified — only stack sizes.
+1. Backup your existing config files:  
+   `entityclasses.xml`, `items.xml`, `blocks.xml`, `entitygroups.xml`, `spawning.xml`, etc.
+2. Replace the original files with the modded versions.
+3. Launch the game on max difficulty for intended experience.
 
-⸻
+---
 
-Gameplay Experience
+## Changelog
 
-This mod is built for:
-	•	Max difficulty
-	•	Feral sense ON
-	•	Night zombies running/sprinting
-	•	Co-op or server play, but still works fine solo
-
-It forces you to:
-	•	Be quiet
-	•	Be smart
-	•	Manage ammo
-	•	Respect the green zones
-	•	Treat every encounter like survival, not a looter-shooter
-
-⸻
-
-How It Works
-
-Everything is done through XML edits:
-	•	entityclasses.xml
-	•	items.xml
-	•	blocks.xml
-	•	entitygroups.xml
-	•	spawning.xml
-	•	Other related config files
-
-No DLLs. No extra dependencies.
-
+**v1.0 – Initial Release**  
+- Zombie reach & behavior rebalanced  
+- Horde spawning improved  
+- Zombie block damage reduced by 50%  
+- Shotguns & rifles buffed (headshot focus, realistic power)  
+- Tools (shovels, pickaxes, gas) buffed  
+- Helicopter rebuilt for stability & usability  
+- Cars & motorcycles tuned (speed, damage, gas)  
+- Spikes improved (wood & metal)  
+- Stackables set to 1000, materials set to 10,000  
