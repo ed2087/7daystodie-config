@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- The (scrappable) weight of a thing is auto-calculated from the resources here unless overridden in blocks/items.xml.
 Unfortunately auto-calc only seems to work on the first (top) ingredient in the list so ammo recipes have been re-ordered as a temp fix.
@@ -77,31 +78,31 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 -->
 
 <recipe name="resourceRockSmallBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourceRockSmall" count="6000"/>
+	<ingredient name="resourceRockSmall" count="10000"/>
 </recipe>
 
 <recipe name="resourceWoodBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourceWood" count="6000"/>
+	<ingredient name="resourceWood" count="10000"/>
 </recipe>
 
 <recipe name="resourceScrapIronBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourceScrapIron" count="6000"/>
+	<ingredient name="resourceScrapIron" count="10000"/>
 </recipe>
 
 <recipe name="resourceOilShaleBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourceOilShale" count="6000"/>
+	<ingredient name="resourceOilShale" count="10000"/>
 </recipe>
 
 <recipe name="resourcePotassiumNitratePowderBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourcePotassiumNitratePowder" count="6000"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="10000"/>
 </recipe>
 
 <recipe name="resourceLeadBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourceScrapLead" count="6000"/>
+	<ingredient name="resourceScrapLead" count="10000"/>
 </recipe>
 
 <recipe name="resourceCoalBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
-	<ingredient name="resourceCoal" count="6000"/>
+	<ingredient name="resourceCoal" count="10000"/>
 </recipe>
 
 <recipe name="ammo9mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
