@@ -45,7 +45,7 @@ Balanced Horde Overhaul is a full **XML gameplay rebalance** that makes 7 Days t
 - Built for **max difficulty** with feral sense ON  
 - Night zombies run/sprint  
 - Encourages quiet, strategic survival  
-- Works for single player or local/dedicated servers
+- Works for multiplayers or local/dedicated servers
 
 ---
 
