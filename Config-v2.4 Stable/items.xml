@@ -9461,7 +9461,7 @@
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="UnlockedBy" value="perkArtOfMiningPallets"/> <!-- BOOK_PERK -->
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="1000"/>
+	<property name="Stacknumber" value="10000"/>
 	<property name="EconomicValue" value="6000"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="Group" value="Resources"/>
@@ -9479,7 +9479,7 @@
 <item name="resourceWoodBundle">
 	<property name="Extends" value="resourceRockSmallBundle"/>
 	<property name="CustomIcon" value="resourceWood"/>
-	<property name="EconomicValue" value="3000"/>
+	<property name="EconomicValue" value="10000"/>
 	<property name="SoundPickup" value="wood_grab"/>
 	<property name="SoundPlace" value="wood_place"/>
 	<property class="Action0">
@@ -9495,7 +9495,7 @@
 	<property name="SoundPlace" value="scrapiron_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="resourceScrapIron"/>
-		<property name="Create_item_count" value="6000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 </item>
 
@@ -9506,7 +9506,7 @@
 	<property name="SoundPlace" value="nitratepowder_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="resourcePotassiumNitratePowder"/>
-		<property name="Create_item_count" value="6000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 </item>
 
@@ -9517,7 +9517,7 @@
 	<property name="SoundPlace" value="lead_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="resourceScrapLead"/>
-		<property name="Create_item_count" value="6000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 </item>
 
@@ -9528,7 +9528,7 @@
 	<property name="SoundPlace" value="coal_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="resourceCoal"/>
-		<property name="Create_item_count" value="6000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 </item>
 
@@ -9539,7 +9539,7 @@
 	<property name="SoundPlace" value="oilshale_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="resourceOilShale"/>
-		<property name="Create_item_count" value="6000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 </item>
 
@@ -9552,7 +9552,7 @@
 	<property name="SoundPlace" value="gascan_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoGasCan"/>
-		<property name="Create_item_count" value="5000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 </item>
@@ -9561,12 +9561,12 @@
 	<property name="Extends" value="resourceRockSmallBundle"/>
 	<property name="CustomIcon" value="resourceGunPowder"/>
 	<property name="UnlockedBy" value="craftingExplosives"/><!-- perkDemolitionsExpert -->
-	<property name="EconomicValue" value="1000"/>
+	<property name="EconomicValue" value="10000"/>
 	<property name="SoundPickup" value="gunpowder_grab"/>
 	<property name="SoundPlace" value="gunpowder_place"/>
 	<property class="Action0">
 		<property name="Create_item" value="resourceGunPowder"/>
-		<property name="Create_item_count" value="1000"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 </item>
@@ -12757,7 +12757,7 @@
 	</property>
 </item>
 
-		<!-- *** NOMAD_OUTFIT -->
+		<!-- *** NOMAD_OUTFIT casinoCoin-->
 <item name="armorNomadOutfit">
 	<property name="Extends" value="armorHeavyMaster" param1="CustomIcon"/>
 	<property name="DescriptionKey" value="armorNomadOutfitDesc"/>
@@ -19692,7 +19692,7 @@
 	<property name="Material" value="MresourceScrapBrassSmall"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="100000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
@@ -19708,7 +19708,7 @@
 	<property name="Material" value="MoldCash"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1000"/>
+	<property name="Stacknumber" value="100000"/>
 	<property name="EconomicValue" value="7"/>
 	<property name="Group" value="Resources"/>
 	<property name="SoundPickup" value="oldcash_grab"/>
@@ -19721,7 +19721,7 @@
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="NoScrapping" value="true"/>
-	<property name="Stacknumber" value="1000"/>
+	<property name="Stacknumber" value="100000"/>
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="12000"/>
 	<property name="TraderStageTemplate" value="electricTier3"/><!-- solarCell -->
@@ -19744,7 +19744,7 @@
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Miron"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
+	<property name="Stacknumber" value="100000"/> <!-- STK loot -->
 	<property name="EconomicValue" value="200"/>
 	<property name="EconomicSellScale" value=".1"/>
 	<property name="Group" value="Tools/Traps,Food/Cooking"/>
@@ -19759,7 +19759,7 @@
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Miron"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
+	<property name="Stacknumber" value="100000"/> <!-- STK loot -->
 	<property name="EconomicValue" value="200"/>
 	<property name="EconomicSellScale" value=".1"/>
 	<property name="Group" value="Tools/Traps,Food/Cooking"/>
@@ -19778,7 +19778,7 @@
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MtoolBeaker"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
+	<property name="Stacknumber" value="100000"/> <!-- STK loot -->
 	<property name="EconomicValue" value="500"/>
 	<property name="Group" value="Tools/Traps,Chemicals"/>
 	<property name="ItemTypeIcon" value="campfire"/>
@@ -19793,7 +19793,7 @@
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MtoolBellows"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="100000"/> <!-- STK resource -->
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="500"/>
 	<property name="Group" value="Tools/Traps"/>
@@ -19815,7 +19815,7 @@
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="0"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK loot -->
+	<property name="Stacknumber" value="100000"/> <!-- STK loot -->
 	<property name="EconomicValue" value="240"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="DisplayType" value="toolAnvil"/>
@@ -19836,7 +19836,7 @@
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="1000"/>
+	<property name="Stacknumber" value="100000"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="EconomicValue" value="5000"/>
 	<property name="SellableToTrader" value="false"/>
@@ -19852,7 +19852,7 @@
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="1000"/>
+	<property name="Stacknumber" value="100000"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="SoundPickup" value="gatherer_grab"/>
 	<property name="SoundPlace" value="gatherer_place"/>
